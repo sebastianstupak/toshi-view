@@ -1,0 +1,43 @@
+{
+  "name": "toshi-view",
+  "version": "0.0.1",
+  "description": "Render 3D City in web.",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebastianstupak/toshi-view.git"
+  },
+  "author": "@sebastianstupak",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sebastianstupak/toshi-view/issues"
+  },
+  "homepage": "https://github.com/sebastianstupak/toshi-view.git#readme",
+  "scripts": {
+    "build": "tsup index.ts --format cjs,esm --dts",
+    "lint": "tsc"
+  },
+  "directories": {
+    "doc": "docs",
+    "example": "examples",
+    "test": "tests"
+  },
+  "keywords": [
+    "3DCity",
+    "mapbox",
+    "mapbox-gl-js",
+    "3D",
+    "City",
+    "Urban"
+  ],
+  "devDependencies": {
+    "@changesets/cli": "^2.27.1",
+    "tsup": "^8.0.2",
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "threebox-plugin": "^2.2.7"
+  }
+}
