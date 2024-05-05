@@ -1,4 +1,4 @@
-# Toshi Core
+# Toshi View
 
 3D City in web.
 
